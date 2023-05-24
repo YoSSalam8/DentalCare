@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+:root{
+    --blue:#00b8b8;
+    --black:#333;
+    --white:#fff;
+    --light-color:#666;
+    --light-bg:#eee;
+    --border:.2rem solid rgba(0,0,0,.1);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,0.1);
+
+}
+
+::-webkit-scrollbar{
+    height: .5rem;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--blue);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("Img/home-bg.jpg");
+    background-size: cover;
+
+
+}
+
+.appointment{
+
+    display: inline-block;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    background-color: var(--blue);
+    cursor: pointer;
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.appointment:hover{
+    background-color: var(--black);
+    color: var(--white);
+}
+.header{
+
+    display: flex;
+    padding: 1rem;
+    border-bottom: var(--border);
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 11;
+    width: auto;
+    background-color: var(--white);
+}
+
+.header .row{
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+
+}
+.header .logo{
+    font-size: 1.3rem;
+    color: var(--blue);
+    position: relative;
+}
+.header .logo span{
+    position: relative;
+    color: var(--black);
+}
+.header .nav a{
+    position: relative;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    color: var(--blue);
+
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.header .nav a:hover{
+    position: relative;
+    color: var(--black);
+}
+
+.bg-image1 {
+    position: relative;
+}
+
+.bg-image1 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.text-on-bg{
+    position: absolute;
+    top: 20%;
+    padding: 20px;
+
+}
+.text-on-bg h2{
+    font-size: 4rem;
+
+
+}
+
+.text-on-bg h3{
+    font-size: 1.5rem;
+
+
+}
+
+
+.sign-up{
+
+    width: 320px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+
+}
+
+.sign-up h1{
+    color: var(--blue);
+    margin-bottom: 30px;
+}
+
+.input-box{
+    border-radius: 20px;
+    padding:10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+
+}
+
+.signup-button{
+
+    color: #fff;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.signup-button{
+    background-color: var(--blue);
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+
+
+.Contact-Us{
+    background-color: var(--black);
+    color: white;
+    margin-top: 10rem;
+}
+
+.Contact-Us .box-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));
+    gap:2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 20rem;
+}
+
+.Contact-Us .box-container .box{
+    text-align: center;
+
+}
+
+.Contact-Us .box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    background-color: var(--blue);
+    color: white;
+    margin-bottom: 1rem;
+
+}
+
+.Contact-Us .box-container .box h3{
+
+    font-size: 0.9rem;
+    color: var(--blue);
+    text-transform: none;
+    line-height: 1;
+
+}
+.Contact-Us .box-container .box h2{
+
+    font-size: 1.1rem;
+    color: var(--white);
+    margin: 2rem 0;
+
+}
+a:hover {
+    text-decoration: none;
+}
